@@ -83,6 +83,10 @@
         "Toonitalia": {
             "url": "https://toonitalia.xyz",
             "enabled": "1"
+        },
+        "Vidxgo": {
+            "url": "https://vidxgo.biz",
+            "enabled": "1"
         }
     }
 }
