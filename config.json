@@ -63,6 +63,22 @@
         "IlGenioDelloStreaming": {
             "url": "https://ilgeniodellostreaming.wtf",
             "enabled": "1"
+        },
+        "Realtime": {
+            "url": "https://realtime.com",
+            "enabled": "1"
+        },
+        "Altadefinizione": {
+            "url": "https://altadefinizione.click",
+            "enabled": "1"
+        },
+        "Cinemahd": {
+            "url": "https://cinemahd.click",
+            "enabled": "1"
+        },
+        "StreamingCommunityNew": {
+            "url": "https://streamingcommunity.click",
+            "enabled": "1"
         }
     }
 }
