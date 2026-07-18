@@ -42,6 +42,8 @@
         },
         "AnimeWorld": {
             "url": "https://animeworld.so",
+            "AW_ForwardProxy": "0",
+            "AW_PROXY": "0",
             "enabled": "1"
         },
         "Eurostreaming": {
@@ -82,6 +84,8 @@
         },
         "Toonitalia": {
             "url": "https://toonitalia.xyz",
+            "TI_ForwardProxy": "0",
+            "TI_PROXY": "0",
             "enabled": "1"
         },
         "Vidxgo": {
