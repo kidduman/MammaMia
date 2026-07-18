@@ -24,6 +24,8 @@
         },
         "Guardoserie": {
             "url": "https://guarda-serie.click",
+            "GO_ForwardProxy": "0",
+            "GO_PROXY": "0",
             "enabled": "1"
         },
         "GuardaHD": {
@@ -34,10 +36,14 @@
         },
         "OnlineSerieTV": {
             "url": "https://onlineserie.tv",
+            "OST_ForwardProxy": "0",
+            "OST_PROXY": "0",
             "enabled": "1"
         },
         "Filmpertutti": {
             "url": "https://filmpertutti.uno",
+            "FPT_ForwardProxy": "0",
+            "FPT_PROXY": "0",
             "enabled": "1"
         },
         "AnimeWorld": {
@@ -60,6 +66,8 @@
         },
         "StreamingCommunityOld": {
             "url": "https://streamingcommunity.presse",
+            "SCO_ForwardProxy": "0",
+            "SCO_PROXY": "0",
             "enabled": "1"
         },
         "Guardaflix": {
@@ -76,6 +84,8 @@
         },
         "Realtime": {
             "url": "https://realtime.com",
+            "RT_ForwardProxy": "0",
+            "RT_PROXY": "0",
             "enabled": "1"
         },
         "Altadefinizione": {
@@ -86,10 +96,14 @@
         },
         "Cinemahd": {
             "url": "https://cinemahd.click",
+            "CHD_ForwardProxy": "0",
+            "CHD_PROXY": "0",
             "enabled": "1"
         },
         "StreamingCommunityNew": {
             "url": "https://streamingcommunity.click",
+            "SCN_ForwardProxy": "0",
+            "SCN_PROXY": "0",
             "enabled": "1"
         },
         "Toonitalia": {
@@ -100,6 +114,8 @@
         },
         "Vidxgo": {
             "url": "https://vidxgo.biz",
+            "VDX_ForwardProxy": "0",
+            "VDX_PROXY": "0",
             "enabled": "1"
         }
     }
