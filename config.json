@@ -51,6 +51,14 @@
         "StreamingCommunityOld": {
             "url": "https://streamingcommunity.presse",
             "enabled": "1"
+        },
+        "Guardaflix": {
+            "url": "https://guardaflix.bond",
+            "enabled": "1"
+        },
+        "IlGenioDelloStreaming": {
+            "url": "https://ilgeniodellostreaming.wtf",
+            "enabled": "1"
         }
     }
 }
