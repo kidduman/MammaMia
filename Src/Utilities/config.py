@@ -87,7 +87,10 @@ VD_DOMAIN = SITE['Vidxgo']['url']
 VD_ForwardProxy = SITE['Vidxgo']['VD_ForwardProxy']
 VD_PROXY = SITE['Vidxgo']['VD_PROXY']
 
-# Riferimenti globali aggiuntivi per compatibilità
+# Riferimenti globali richiesti dagli estrattori e dall'interfaccia web
 VERSION = "1.0.0"
 GLOBAL_PROXY = "0"
 GLOBAL_ForwardProxy = "0"
+Icon = "https://raw.githubusercontent.com/debridmedialab/mammamia/main/icon.png"
+Name = "MammaMia"
+Description = "Addon privato per Stremio"
