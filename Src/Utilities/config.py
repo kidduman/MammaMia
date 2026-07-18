@@ -5,6 +5,9 @@ import logging
 # Variabile richiesta da loadenv.py
 dotenv = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '.env')
 
+# Impostazione del livello log richiesto da mfp.py
+LEVEL = "INFO"
+
 # Funzione richiesta da mfp.py per sbloccare i log
 def setup_logging():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
