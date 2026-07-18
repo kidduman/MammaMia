@@ -1,5 +1,5 @@
 {
-    "Siti": {
+    "SITE": {
         "StreamingCommunity": {
             "url": "https://vixsrc.to",
             "SC_ForwardProxy": "0",
@@ -78,6 +78,10 @@
         },
         "StreamingCommunityNew": {
             "url": "https://streamingcommunity.click",
+            "enabled": "1"
+        },
+        "Toonitalia": {
+            "url": "https://toonitalia.xyz",
             "enabled": "1"
         }
     }
