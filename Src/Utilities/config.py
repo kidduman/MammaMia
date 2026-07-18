@@ -1,6 +1,9 @@
 import json
 import os
 
+# Variabile richiesta da loadenv.py
+dotenv = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '.env')
+
 # Configurazione manuale diretta per evitare KeyError su Render
 SITE = {
     "StreamingCommunity": {"url": "https://vixsrc.to", "SC_ForwardProxy": "0", "SC_PROXY": "0", "VX_ForwardProxy": "0", "VX_PROXY": "0"},
@@ -84,5 +87,7 @@ VD_DOMAIN = SITE['Vidxgo']['url']
 VD_ForwardProxy = SITE['Vidxgo']['VD_ForwardProxy']
 VD_PROXY = SITE['Vidxgo']['VD_PROXY']
 
-# Riferimenti globali per evitare errori di importazione altrove
+# Riferimenti globali aggiuntivi per compatibilità
 VERSION = "1.0.0"
+GLOBAL_PROXY = "0"
+GLOBAL_ForwardProxy = "0"
