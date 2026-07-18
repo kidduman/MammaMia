@@ -64,10 +64,14 @@
         },
         "Guardaflix": {
             "url": "https://guardaflix.bond",
+            "GF_ForwardProxy": "0",
+            "GF_PROXY": "0",
             "enabled": "1"
         },
         "IlGenioDelloStreaming": {
             "url": "https://ilgeniodellostreaming.wtf",
+            "IDS_ForwardProxy": "0",
+            "IDS_PROXY": "0",
             "enabled": "1"
         },
         "Realtime": {
@@ -76,6 +80,8 @@
         },
         "Altadefinizione": {
             "url": "https://altadefinizione.click",
+            "AD_ForwardProxy": "0",
+            "AD_PROXY": "0",
             "enabled": "1"
         },
         "Cinemahd": {
