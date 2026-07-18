@@ -39,6 +39,18 @@
         "AnimeWorld": {
             "url": "https://animeworld.so",
             "enabled": "1"
+        },
+        "Eurostreaming": {
+            "url": "https://eurostreaming.vision",
+            "enabled": "1"
+        },
+        "TantiFilm": {
+            "url": "https://tantifilm.uno",
+            "enabled": "1"
+        },
+        "StreamingCommunityOld": {
+            "url": "https://streamingcommunity.presse",
+            "enabled": "1"
         }
     }
 }
