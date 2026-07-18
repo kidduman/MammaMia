@@ -18,9 +18,9 @@
         },
         "Guardaserie": {
             "url": "https://guarda-serie.click",
-            "enabled": "1",
             "GS_ForwardProxy": "0",
-            "GS_PROXY": "0"
+            "GS_PROXY": "0",
+            "enabled": "1"
         },
         "Guardoserie": {
             "url": "https://guarda-serie.click",
@@ -28,9 +28,9 @@
         },
         "GuardaHD": {
             "url": "https://guardahd.stream",
-            "enabled": "1",
             "GH_ForwardProxy": "0",
-            "GH_PROXY": "0"
+            "GH_PROXY": "0",
+            "enabled": "1"
         },
         "OnlineSerieTV": {
             "url": "https://onlineserie.tv",
@@ -48,10 +48,14 @@
         },
         "Eurostreaming": {
             "url": "https://eurostreaming.vision",
+            "ES_ForwardProxy": "0",
+            "ES_PROXY": "0",
             "enabled": "1"
         },
         "TantiFilm": {
             "url": "https://tantifilm.uno",
+            "TF_ForwardProxy": "0",
+            "TF_PROXY": "0",
             "enabled": "1"
         },
         "StreamingCommunityOld": {
