@@ -1,8 +1,14 @@
 import json
 import os
+import logging
 
 # Variabile richiesta da loadenv.py
 dotenv = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), '.env')
+
+# Funzione richiesta da mfp.py per sbloccare i log
+def setup_logging():
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    return logging.getLogger(__name__)
 
 # Configurazione manuale diretta per evitare KeyError su Render
 SITE = {
@@ -21,7 +27,7 @@ SITE = {
     "IlGenioDelloStreaming": {"url": "https://ilgeniodellostreaming.wtf", "IDS_ForwardProxy": "0", "IDS_PROXY": "0"},
     "Realtime": {"url": "https://realtime.com", "RT_ForwardProxy": "0", "RT_PROXY": "0"},
     "Altadefinizione": {"url": "https://altadefinizione.click", "AD_ForwardProxy": "0", "AD_PROXY": "0"},
-    "Cinemahd": {"url": "https://cinemahd.click", "CHD_ForwardProxy": "0", "CHD_PROXY": "0"},
+    "Cinemahd": {"url": "https://cinemahd.click", "CHD_HighQuality": "0", "CHD_PROXY": "0"},
     "StreamingCommunityNew": {"url": "https://streamingcommunity.click", "SCN_ForwardProxy": "0", "SCN_PROXY": "0"},
     "Toonitalia": {"url": "https://toonitalia.xyz", "TI_ForwardProxy": "0", "TI_PROXY": "0"},
     "Vidxgo": {"url": "https://vidxgo.biz", "VD_ForwardProxy": "0", "VD_PROXY": "0"}
