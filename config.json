@@ -114,8 +114,8 @@
         },
         "Vidxgo": {
             "url": "https://vidxgo.biz",
-            "VDX_ForwardProxy": "0",
-            "VDX_PROXY": "0",
+            "VD_ForwardProxy": "0",
+            "VD_PROXY": "0",
             "enabled": "1"
         }
     }
