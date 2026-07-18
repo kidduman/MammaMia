@@ -22,6 +22,10 @@
             "GS_ForwardProxy": "0",
             "GS_PROXY": "0"
         },
+        "Guardoserie": {
+            "url": "https://guarda-serie.click",
+            "enabled": "1"
+        },
         "GuardaHD": {
             "url": "https://guardahd.stream",
             "enabled": "1",
